@@ -3,7 +3,7 @@ Service Fabric Not Found MiddeWare ASP.NET Core.
 This is required so that Reverse Proxy in Service Fabric can distinguish between "Wrong Reverse Proxy Path" or "Path not found in a service". More details can be found at https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-reverseproxy
 
 # Nuget Package
-```PM> install SfNotFound```
+```PM> Install-Package SfNotFound```
 
 # Usage
 ```cs

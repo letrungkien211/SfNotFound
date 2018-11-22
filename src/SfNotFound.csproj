@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+    <Authors>letrungkien211@gmail.com</Authors>
+    <Description>Service Fabric Not Found MiddleWare. https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-reverseproxy  Keyword: X-ServiceFabric</Description>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <IncludeSymbols>True</IncludeSymbols>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageProjectUrl>https://github.com/letrungkien211/SfNotFound</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.1.1" />
+  </ItemGroup>
+
+</Project>

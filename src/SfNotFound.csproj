@@ -9,6 +9,10 @@
     <IncludeSymbols>True</IncludeSymbols>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageProjectUrl>https://github.com/letrungkien211/SfNotFound</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/letrungkien211/SfNotFound</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>Service Fabric, MiddleWare, Asp.Net Core, Not Found, 404</PackageTags>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>

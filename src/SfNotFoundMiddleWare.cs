@@ -18,7 +18,7 @@ namespace SfNotFound
         public async Task Invoke(HttpContext httpContext)
         {
             await _next(httpContext);
-            if (httpContext.Response.StatusCode == 404)
+            if (httpContext.Response?.StatusCode == 404)
             {
                 httpContext.Response.Headers["X-ServiceFabric"] = "ResourceNotFound";
             }

@@ -2,10 +2,10 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.0</Version>
+    <Version>1.1.0</Version>
     <Authors>letrungkien211@gmail.com</Authors>
     <Description>Service Fabric Not Found MiddleWare. https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-reverseproxy  Keyword: X-ServiceFabric</Description>
-    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageReleaseNotes>Handle the case when httpContext.Response is null.</PackageReleaseNotes>
     <IncludeSymbols>True</IncludeSymbols>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageProjectUrl>https://github.com/letrungkien211/SfNotFound</PackageProjectUrl>

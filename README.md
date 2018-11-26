@@ -26,5 +26,5 @@ using SfNotFound;
     }
 ```
 
-# Licene
+# License
 MIT

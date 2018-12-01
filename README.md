@@ -7,8 +7,9 @@ This is required so that Reverse Proxy in Service Fabric can distinguish the fol
 More details can be found at https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-reverseproxy
 
 # Nuget Package
-```PM> Install-Package SfNotFound```
+https://www.nuget.org/packages/SfNotFound/
 
+```PM> Install-Package SfNotFound```
 # Usage
 ```cs
 // Startup.cs
